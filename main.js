@@ -47,6 +47,6 @@ var allFrequencies = [
     var getFrequency = function() {
         
         var input = document.getElementById("midi_input").value
-        output.innerHTML = input 
+        output.innerHTML = allFrequencies[input] 
     }
 
