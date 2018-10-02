@@ -47,6 +47,11 @@ var allFrequencies = [
     var getFrequency = function() {
         
         var input = document.getElementById("midi_input").value
-        output.innerHTML = allFrequencies[input] 
+        if (input <= 127 && input >= 0){
+            output.innerHTML = allFrequencies[input]
+        } else {
+            output.innerHTML = "Invalid"
+        }
+         
     }
 
