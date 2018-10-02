@@ -1,0 +1,31 @@
+body,html {
+    width: 100%;
+    height:100%;
+    padding: 0;
+    margin: 0;
+}
+
+.pad{
+    height: 50%;
+    width: 50%;
+    float: left;
+}
+
+#pad1 {
+    background: #224377;
+
+}
+#pad2 {
+    background: #964824;
+}
+#pad3 {
+    background: #0d7c20;
+}
+#pad4 {
+    background: #b860db;
+}
+
+
+#pad1:active, #pad2:active, #pad3:active, #pad4:active {
+    background: white;
+}
